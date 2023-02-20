@@ -174,7 +174,7 @@ p {
   }
 
   .title-image {
-    position: block;
+    position: static;
     transform: rotate(0);
     margin-left: auto;
     margin-right: auto;
