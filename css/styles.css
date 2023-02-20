@@ -169,13 +169,16 @@ p {
 
 @media (max-width: 1028px) {
 
-  #title {
+  #title .container-fluid {
     text-align: center;
   }
 
   .title-image {
-    position: static;
+    position: block;
     transform: rotate(0);
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
   }
 }
 
